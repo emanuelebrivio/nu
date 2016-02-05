@@ -1,6 +1,6 @@
 {
   "name": "nu",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Build simple websites in no time",
   "scripts": {
     "dev": "sh bin/build.sh"
