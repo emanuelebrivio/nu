@@ -20,12 +20,21 @@ html
       meta(property='og:description', content='')
       meta(property='og:image', content='')
 
+    // CDN stuff
     link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css')
     link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css')
-    link(rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700')
-    link(rel='stylesheet' href='static/css/style.css')
+    link(rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700')
+    
+    // nu-based CSS files
     link(rel='stylesheet' href='static/css/clean.css')
-    link(rel='shortcut icon' href='static/img/favicon.png' type='image/png')
+    link(rel='stylesheet' href='static/css/style.css')
+    
+    // Cross-platform favicon resources - Discover more at https://realfavicongenerator.net/blog/favicon-why-youre-doing-it-wrong/
+    meta(name='msapplication-TileColor' content='#584843')
+    meta(name='msapplication-TileImage' content='/static/img/mstile-icon.png')
+    link(rel='apple-touch-icon' href='static/img/favicon.png')
+    link(rel='shortcut icon' href='static/img/favicon.ico')
+    link(rel='icon' href='static/img/favicon.png' type='image/png')
     
     block head
 
